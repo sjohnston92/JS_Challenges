@@ -5,9 +5,9 @@
 
 //creating a function passing a string
 function alphaSort(str)
-//converting the function into an array & converting back into array.
+//converting the function into an array & converting back into string.
   {
 return str.split('').sort().join('');
   }
-//
+//out put of sort
 console.log(alphaSort("Well well well"));
