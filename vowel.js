@@ -6,8 +6,8 @@ let state ={
   vowelCount: 0
 }
 
-function vowelCount(string){
-  state.vowels.forEach(function (vowels, string)
+function vowelCount(str){
+  state.str.forEach(function (vowels, string)
  {if (string.includes(vowels)) {
       state.vowelCount ++
   }
